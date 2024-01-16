@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+.user-box{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background: lightgreen;
+}
+button{
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  background: white;
+  color: black;
+  transition: background-color 1s ease-in-out;
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

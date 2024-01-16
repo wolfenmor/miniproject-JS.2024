@@ -1,0 +1,23 @@
+.post-button{
+  width: 90%;
+}
+.divForButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.post{
+  border: black 1px solid;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
